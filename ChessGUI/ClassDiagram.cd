@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChessGUI.About" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAIgAAAAAACAAAACMAAgIAAAAAAgAABAAEA=</HashCode>
+      <FileName>About.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGUI.Board" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAEQwAMwAgAKgAAEAQgAJQIAKQISIAIgoCQAABgERAw=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGUI.chessServer" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAiAAAAAAAAAAAAAAAYAICAIAAIAAAAAAAABAAAACA=</HashCode>
+      <FileName>chessServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGUI.Gegner" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABCAAEACAEAAAOQACAAAACAAAAAAAEAAAAAUACAQA=</HashCode>
+      <FileName>Gegner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGUI.Help" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAACAAAAAAAACAAAACAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Help.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGUI.ImageFunctions" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImageFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGUI.InValidCheck" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InvalidCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGUI.Mailformular" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAYEAACAAAQAAAACAAAISAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Mailformular.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGUI.SchachGUI" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kyDOCAg4dzh0AgTmAIvzYSI7pQkLBRrJgl8pSAtw/BQ=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGUI.Partien" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAICAAEBAAAAiBQEACICAAAACACAQAAAQ4AAI=</HashCode>
+      <FileName>Partien.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGUI.Piece" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAQAgAAAAAAAAAAAAIAAAQAAgAAAAAA=</HashCode>
+      <FileName>Piece.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChessGUI.Program" Collapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGUI.WebBrowserHelper" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAIAAAIBAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WebBrowserHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGUI.Win" Collapsed="true">
+    <Position X="5.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAABAAAAAgQAAAEQAAAAIAAAAIA=</HashCode>
+      <FileName>winApi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGUI.Zugtransfer" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACoiCZCDmAQBAABCAEAQCIAAJBgUAUAAwAIAAAAA=</HashCode>
+      <FileName>Zugtransfer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGUI.Properties.Resources" Collapsed="true">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAEAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGUI.Properties.Settings" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="10" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Exception" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ChessGUI.IPiece" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAQAAgAAAAAA=</HashCode>
+      <FileName>IPiece.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ChessGUI.PieceType" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAgAAAAAAAAAQAAAAAAIAAAABAAAAAAAAAQA=</HashCode>
+      <FileName>Piece.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ChessGUI.PieceColor" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAgAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Piece.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ChessGUI.Farbe" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAIAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Zugtransfer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
