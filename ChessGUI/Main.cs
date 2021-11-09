@@ -212,11 +212,11 @@ namespace ChessGUI {
         #region Brett und Figuren darstellen
         private void StelleBrettundFigurenDar([Optional] bool restart) {
             Size tileSize = new Size(fieldWith, this.fieldHeight);
-            Bitmap bitmap = CreateBoard(tileSize);
+            Bitmap bitmap = this.CreateBoard(tileSize);
             if (!restart)
-                ZeigeFigur(bitmap);
+                this.ZeigeFigur(bitmap);
             else
-                ZeigeFigur(bitmap, restart);
+                this.ZeigeFigur(bitmap, restart);
             picBrett.Image = bitmap;
         }
         #endregion
