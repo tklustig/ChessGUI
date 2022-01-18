@@ -6,6 +6,7 @@ namespace ChessGUI {
         /// <summary>
         /// Der Haupteinstiegspunkt fuer die Anwendung.
         /// </summary>
+								/// STRG-M-O klappt ein,STRG-M-L kappt aus
         [STAThread]
         static void Main() {
             Application.EnableVisualStyles();
