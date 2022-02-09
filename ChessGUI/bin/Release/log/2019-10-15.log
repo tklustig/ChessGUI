@@ -1,0 +1,20 @@
+2019-10-15 15:35:18.4454|DEBUG|ChessGUI.SchachGUI|WhiteKingX=4;WhiteKingY=7 / load formular
+2019-10-15 15:35:18.5078|DEBUG|ChessGUI.SchachGUI|BlackKingX=4;BlackKingY=0 / load formular
+2019-10-15 15:35:20.9726|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2019-10-15 15:35:20.9726|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=5
+2019-10-15 15:35:22.4702|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2019-10-15 15:35:22.4702|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=3
+2019-10-15 15:37:05.3292|DEBUG|ChessGUI.SchachGUI|WhiteKingX=4;WhiteKingY=7 / load formular
+2019-10-15 15:37:05.3852|DEBUG|ChessGUI.SchachGUI|BlackKingX=4;BlackKingY=0 / load formular
+2019-10-15 15:37:07.3743|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2019-10-15 15:37:07.3743|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=4
+2019-10-15 15:37:08.5344|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2019-10-15 15:37:08.5344|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=4;posY=3
+2019-10-15 15:37:09.5544|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2019-10-15 15:37:09.5544|WARN|ChessGUI.Board|Errechnete Koordinaten X=4;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Bauer auf dem Brett
+2019-10-15 15:37:09.5544|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2019-10-15 15:37:09.5544|WARN|ChessGUI.Board|Errechnete Koordinaten X=4;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Bauer auf dem Brett
+2019-10-15 15:37:09.5544|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2019-10-15 15:37:09.5764|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2019-10-15 15:37:09.5764|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=4;posY=3
+2019-10-15 15:37:11.5525|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt

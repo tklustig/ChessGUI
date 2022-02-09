@@ -1,0 +1,13 @@
+2021-03-16 17:32:42.9341|DEBUG|ChessGUI.SchachGUI|WhiteKingX=4;WhiteKingY=7 / load formular
+2021-03-16 17:32:42.9653|DEBUG|ChessGUI.SchachGUI|BlackKingX=4;BlackKingY=0 / load formular
+2021-03-16 17:32:48.3941|ERROR|ChessGUI.SchachGUI|Der Remotename konnte nicht aufgelöst werden: 'tklustig.ddns.net'
+System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'tklustig.ddns.net'
+   bei System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   bei System.Net.HttpWebRequest.GetRequestStream()
+   bei ChessGUI.SchachGUI.SchachGUI_FormClosing(Object sender, FormClosingEventArgs e) in F:\Visual Studio 2017\C#\C#_GUI\ChessGUI\ChessGUI\Main.cs:Zeile 1111.
+   bei System.Windows.Forms.Form.OnFormClosing(FormClosingEventArgs e)
+   bei System.Windows.Forms.Form.RaiseFormClosingOnAppExit()
+   bei System.Windows.Forms.Application.ExitInternal()
+   bei System.Windows.Forms.Application.Exit(CancelEventArgs e)
+   bei System.Windows.Forms.Application.Exit()
+   bei ChessGUI.SchachGUI.BeendenToolStripMenuItem_Click(Object sender, EventArgs e) in F:\Visual Studio 2017\C#\C#_GUI\ChessGUI\ChessGUI\Main.cs:Zeile 95.

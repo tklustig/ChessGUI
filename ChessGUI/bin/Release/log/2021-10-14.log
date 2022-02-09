@@ -1,0 +1,83 @@
+2021-10-14 12:10:22.3323|DEBUG|ChessGUI.SchachGUI|WhiteKingX=4;WhiteKingY=7 / load formular
+2021-10-14 12:10:22.3635|DEBUG|ChessGUI.SchachGUI|BlackKingX=4;BlackKingY=0 / load formular
+2021-10-14 12:10:27.4491|ERROR|ChessGUI.SchachGUI|Während einer Pinganforderung ist eine Ausnahme aufgetreten.
+System.Net.NetworkInformation.PingException: Während einer Pinganforderung ist eine Ausnahme aufgetreten. ---> System.Net.Sockets.SocketException: Der angegebene Host ist unbekannt
+   bei System.Net.Dns.GetAddrInfo(String name)
+   bei System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   bei System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- Ende der internen Ausnahmestapelüberwachung ---
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   bei ChessGUI.SchachGUI.IsConnectionAvailable(String url, Int32 timeout) in F:\Visual Studio 2017\C#\C#_GUI\ChessGUI\ChessGUI\Main.cs:Zeile 1377.
+2021-10-14 12:10:27.4491|WARN|ChessGUI.SchachGUI|Die Url:{0} konnte nicht angepingt werden. Versuche es mit dem doppelten TimeOut erneut
+2021-10-14 12:10:27.4647|ERROR|ChessGUI.SchachGUI|Während einer Pinganforderung ist eine Ausnahme aufgetreten.
+System.Net.NetworkInformation.PingException: Während einer Pinganforderung ist eine Ausnahme aufgetreten. ---> System.Net.Sockets.SocketException: Der angegebene Host ist unbekannt
+   bei System.Net.Dns.GetAddrInfo(String name)
+   bei System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   bei System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- Ende der internen Ausnahmestapelüberwachung ---
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   bei ChessGUI.SchachGUI.IsConnectionAvailable(String url, Int32 timeout) in F:\Visual Studio 2017\C#\C#_GUI\ChessGUI\ChessGUI\Main.cs:Zeile 1373.
+2021-10-14 12:10:27.4647|WARN|ChessGUI.SchachGUI|Die Url:{0} konnte nicht angepingt werden. Versuche es mit dem doppelten TimeOut erneut
+2021-10-14 12:10:27.4647|DEBUG|ChessGUI.SchachGUI|Da der Boolean auf False gesetzt wurde, wird kein erneuter Pingversuch gestartet. Der Kontakt ist gescheitert
+2021-10-14 12:10:40.5735|DEBUG|ChessGUI.SchachGUI|WhiteKingX=4;WhiteKingY=7 / load formular
+2021-10-14 12:10:40.6047|DEBUG|ChessGUI.SchachGUI|BlackKingX=4;BlackKingY=0 / load formular
+2021-10-14 12:10:42.6327|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-10-14 12:10:42.6327|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=5
+2021-10-14 12:10:45.8879|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-10-14 12:10:45.8879|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=3
+2021-10-14 12:10:51.7359|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-10-14 12:10:51.7359|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=4
+2021-10-14 12:10:57.6015|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-10-14 12:10:57.6015|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=3
+2021-10-14 12:11:01.2900|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-10-14 12:11:01.2900|WARN|ChessGUI.Board|Errechnete Koordinaten X=2;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Bauer auf dem Brett
+2021-10-14 12:11:01.3056|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-10-14 12:11:01.3056|WARN|ChessGUI.Board|Errechnete Koordinaten X=2;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Bauer auf dem Brett
+2021-10-14 12:11:01.3056|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-10-14 12:11:01.3056|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-10-14 12:11:01.3056|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=3
+2021-10-14 12:11:09.3708|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-10-14 12:11:12.2168|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-10-14 12:11:12.2168|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=2
+2021-10-14 12:11:51.0853|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-10-14 12:11:51.0853|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=5
+2021-10-14 12:11:53.5969|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-10-14 12:11:53.5969|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=2
+2021-10-14 12:11:59.5093|DEBUG|ChessGUI.SchachGUI|Last figure moved:Laeufer
+2021-10-14 12:11:59.5093|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=6;posY=3
+2021-10-14 12:12:02.2393|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-10-14 12:12:02.2393|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=4;posY=2
+2021-10-14 12:12:04.2673|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-10-14 12:12:04.2673|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=4;posY=5
+2021-10-14 12:12:07.1689|DEBUG|ChessGUI.SchachGUI|Last figure moved:Laeufer
+2021-10-14 12:12:07.1689|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=1
+2021-10-14 12:12:09.4309|DEBUG|ChessGUI.SchachGUI|Last figure moved:Laeufer
+2021-10-14 12:12:09.4309|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=5
+2021-10-14 12:12:14.0173|DEBUG|ChessGUI.SchachGUI|Der Uebergabeparameter figure2TakeBack:Laeufer wurde durch lastFigureMoved:Laeufer zugewiesen
+2021-10-14 12:12:14.0173|DEBUG|ChessGUI.SchachGUI|Da Board.figureHasBeenBeaten den Wert False hat, wird keine geschlagene Figur verarbeitet
+2021-10-14 12:12:14.0173|DEBUG|ChessGUI.Board|Zugruecknahme gestartet....
+2021-10-14 12:12:14.0173|DEBUG|ChessGUI.Board|Uebergebene Parameter: x=3, y=5, exX=5, exY=7, figur=Laeufer, figureHasBeenBeaten=False
+2021-10-14 12:12:14.0173|DEBUG|ChessGUI.Board|Da figureHasBeenBeaten den Value False hat, wurde folgende Positionsaenderung durchgefuehrt:NULL fuer x=3/y=5
+2021-10-14 12:12:14.0173|DEBUG|ChessGUI.Board|Da figureHasBeenBeaten den Value False hat, wurde folgende Positionsaenderung durchgefuehrt:Figur:Laeufer wurde auf 5/7 gesetzt
+2021-10-14 12:12:18.3153|DEBUG|ChessGUI.SchachGUI|Last figure moved:Laeufer
+2021-10-14 12:12:18.3153|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=5
+2021-10-14 12:12:20.7957|DEBUG|ChessGUI.SchachGUI|Der Uebergabeparameter figure2TakeBack:Laeufer wurde durch lastFigureMoved:Laeufer zugewiesen
+2021-10-14 12:12:20.7957|DEBUG|ChessGUI.SchachGUI|Da Board.figureHasBeenBeaten den Wert False hat, wird keine geschlagene Figur verarbeitet
+2021-10-14 12:12:20.7957|DEBUG|ChessGUI.Board|Zugruecknahme gestartet....
+2021-10-14 12:12:20.7957|DEBUG|ChessGUI.Board|Uebergebene Parameter: x=3, y=5, exX=5, exY=7, figur=Laeufer, figureHasBeenBeaten=False
+2021-10-14 12:12:20.7957|DEBUG|ChessGUI.Board|Da figureHasBeenBeaten den Value False hat, wurde folgende Positionsaenderung durchgefuehrt:NULL fuer x=3/y=5
+2021-10-14 12:12:20.7957|DEBUG|ChessGUI.Board|Da figureHasBeenBeaten den Value False hat, wurde folgende Positionsaenderung durchgefuehrt:Figur:Laeufer wurde auf 5/7 gesetzt
+2021-10-14 12:12:43.7122|ERROR|ChessGUI.SchachGUI|Der Remotename konnte nicht aufgelöst werden: 'tklustig.ddns.net'
+System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'tklustig.ddns.net'
+   bei System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   bei System.Net.HttpWebRequest.GetRequestStream()
+   bei ChessGUI.SchachGUI.SchachGUI_FormClosing(Object sender, FormClosingEventArgs e) in F:\Visual Studio 2017\C#\C#_GUI\ChessGUI\ChessGUI\Main.cs:Zeile 1111.
+   bei System.Windows.Forms.Form.OnFormClosing(FormClosingEventArgs e)
+   bei System.Windows.Forms.Form.RaiseFormClosingOnAppExit()
+   bei System.Windows.Forms.Application.ExitInternal()
+   bei System.Windows.Forms.Application.Exit(CancelEventArgs e)
+   bei ChessGUI.SchachGUI.BeendenToolStripMenuItem_Click(Object sender, EventArgs e) in F:\Visual Studio 2017\C#\C#_GUI\ChessGUI\ChessGUI\Main.cs:Zeile 95.

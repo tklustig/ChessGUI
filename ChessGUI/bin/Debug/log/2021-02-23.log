@@ -1,0 +1,554 @@
+2021-02-23 07:41:06.0980|DEBUG|ChessGUI.SchachGUI|WhiteKingX=4;WhiteKingY=7 / load formular
+2021-02-23 07:41:06.1292|DEBUG|ChessGUI.SchachGUI|BlackKingX=4;BlackKingY=0 / load formular
+2021-02-23 07:41:09.2872|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 07:41:09.2872|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=5
+2021-02-23 07:41:17.3501|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 07:41:17.3501|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=3
+2021-02-23 07:41:19.5029|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 07:41:19.5029|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=4
+2021-02-23 07:41:37.9401|INFO|ChessGUI.About|DeveloperInfo succesfully loaded
+2021-02-23 07:42:16.7176|ERROR|ChessGUI.SchachGUI|Der Remotename konnte nicht aufgelöst werden: 'tklustig.ddns.net'
+System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'tklustig.ddns.net'
+   bei System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   bei System.Net.HttpWebRequest.GetRequestStream()
+   bei ChessGUI.SchachGUI.SchachGUI_FormClosing(Object sender, FormClosingEventArgs e) in F:\Visual Studio 2017\C#\C#_GUI\ChessGUI\ChessGUI\Main.cs:Zeile 1111.
+   bei System.Windows.Forms.Form.OnFormClosing(FormClosingEventArgs e)
+   bei System.Windows.Forms.Form.RaiseFormClosingOnAppExit()
+   bei System.Windows.Forms.Application.ExitInternal()
+   bei System.Windows.Forms.Application.Exit(CancelEventArgs e)
+   bei System.Windows.Forms.Application.Exit()
+   bei ChessGUI.SchachGUI.BeendenToolStripMenuItem_Click(Object sender, EventArgs e) in F:\Visual Studio 2017\C#\C#_GUI\ChessGUI\ChessGUI\Main.cs:Zeile 95.
+2021-02-23 07:42:24.8557|DEBUG|ChessGUI.SchachGUI|WhiteKingX=4;WhiteKingY=7 / load formular
+2021-02-23 07:42:24.9089|DEBUG|ChessGUI.SchachGUI|BlackKingX=4;BlackKingY=0 / load formular
+2021-02-23 07:42:59.1360|DEBUG|ChessGUI.SchachGUI|WhiteKingX=4;WhiteKingY=7 / load formular
+2021-02-23 07:42:59.1828|DEBUG|ChessGUI.SchachGUI|BlackKingX=4;BlackKingY=0 / load formular
+2021-02-23 07:50:55.4409|DEBUG|ChessGUI.SchachGUI|WhiteKingX=4;WhiteKingY=7 / load formular
+2021-02-23 07:50:55.4721|DEBUG|ChessGUI.SchachGUI|BlackKingX=4;BlackKingY=0 / load formular
+2021-02-23 07:51:10.4872|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 07:51:10.4872|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=5
+2021-02-23 07:51:16.9692|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 07:51:16.9692|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=4;posY=3
+2021-02-23 07:51:18.5448|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 07:51:18.5448|WARN|ChessGUI.Board|Errechnete Koordinaten X=4;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Springer auf dem Brett
+2021-02-23 07:51:18.5448|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 07:51:18.5448|WARN|ChessGUI.Board|Errechnete Koordinaten X=4;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Springer auf dem Brett
+2021-02-23 07:51:18.5448|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 07:51:18.5448|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 07:51:18.5448|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=4;posY=3
+2021-02-23 07:51:21.7428|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 07:51:22.3512|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 07:51:22.3512|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=2
+2021-02-23 07:51:24.4416|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 07:51:29.2032|DEBUG|ChessGUI.SchachGUI|WhiteKingX=4,WhiteKingY=7 / restart game
+2021-02-23 07:51:29.2188|DEBUG|ChessGUI.SchachGUI|BlackKingX=4,BlackKingY=0 / restart game
+2021-02-23 07:52:35.4289|ERROR|ChessGUI.SchachGUI|Der Remotename konnte nicht aufgelöst werden: 'tklustig.ddns.net'
+System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'tklustig.ddns.net'
+   bei System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   bei System.Net.HttpWebRequest.GetRequestStream()
+   bei ChessGUI.SchachGUI.SchachGUI_FormClosing(Object sender, FormClosingEventArgs e) in F:\Visual Studio 2017\C#\C#_GUI\ChessGUI\ChessGUI\Main.cs:Zeile 1111.
+   bei System.Windows.Forms.Form.OnFormClosing(FormClosingEventArgs e)
+   bei System.Windows.Forms.Form.RaiseFormClosingOnAppExit()
+   bei System.Windows.Forms.Application.ExitInternal()
+   bei System.Windows.Forms.Application.Exit(CancelEventArgs e)
+   bei System.Windows.Forms.Application.Exit()
+   bei ChessGUI.SchachGUI.BeendenToolStripMenuItem_Click(Object sender, EventArgs e) in F:\Visual Studio 2017\C#\C#_GUI\ChessGUI\ChessGUI\Main.cs:Zeile 95.
+2021-02-23 12:26:05.0699|DEBUG|ChessGUI.SchachGUI|WhiteKingX=4;WhiteKingY=7 / load formular
+2021-02-23 12:26:05.1009|DEBUG|ChessGUI.SchachGUI|BlackKingX=4;BlackKingY=0 / load formular
+2021-02-23 12:26:07.4870|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 12:26:07.4870|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=5
+2021-02-23 12:26:09.8272|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 12:26:09.8272|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=3
+2021-02-23 12:26:11.5803|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 12:26:11.5803|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=4
+2021-02-23 12:26:24.1860|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 12:26:24.1860|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=2
+2021-02-23 12:26:26.7641|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 12:26:26.7641|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=4
+2021-02-23 12:26:31.0284|DEBUG|ChessGUI.SchachGUI|Last figure moved:Laeufer
+2021-02-23 12:26:31.0284|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=6;posY=4
+2021-02-23 12:26:32.9065|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 12:26:32.9065|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=4;posY=5
+2021-02-23 12:26:34.6166|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:26:34.6166|WARN|ChessGUI.Board|Errechnete Koordinaten X=2;Y=4 entsprechen nicht der/dem weissen Bauer, sondern der/dem schwarzen Bauer auf dem Brett
+2021-02-23 12:26:34.6166|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Bauer der Liste bei
+2021-02-23 12:26:34.6166|WARN|ChessGUI.Board|Errechnete Koordinaten X=2;Y=4 entsprechen nicht der/dem weissen Bauer, sondern der/dem schwarzen Bauer auf dem Brett
+2021-02-23 12:26:34.6166|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Bauer der Liste bei
+2021-02-23 12:26:34.6166|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 12:26:34.6166|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=4
+2021-02-23 12:26:35.6647|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:26:36.8957|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:26:36.8957|WARN|ChessGUI.Board|Errechnete Koordinaten X=2;Y=4 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Laeufer auf dem Brett
+2021-02-23 12:26:36.8957|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 12:26:36.8957|WARN|ChessGUI.Board|Errechnete Koordinaten X=2;Y=4 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Laeufer auf dem Brett
+2021-02-23 12:26:36.8957|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 12:26:36.8957|DEBUG|ChessGUI.SchachGUI|Last figure moved:Laeufer
+2021-02-23 12:26:36.8957|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=4
+2021-02-23 12:26:39.6719|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:26:42.9961|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 12:26:42.9961|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=3
+2021-02-23 12:26:46.2023|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 12:26:46.2023|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=5
+2021-02-23 12:26:49.3724|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 12:26:49.3734|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=2
+2021-02-23 12:26:51.2886|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:26:51.2886|WARN|ChessGUI.Board|Errechnete Koordinaten X=2;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Bauer auf dem Brett
+2021-02-23 12:26:51.2886|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 12:26:51.2926|WARN|ChessGUI.Board|Errechnete Koordinaten X=2;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Bauer auf dem Brett
+2021-02-23 12:26:51.2926|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 12:26:51.2926|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 12:26:51.2926|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=3
+2021-02-23 12:26:52.2086|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:26:53.0176|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 12:26:53.0176|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=4;posY=2
+2021-02-23 12:26:55.5068|DEBUG|ChessGUI.SchachGUI|WhiteKingX=6,WhiteKingY=7 / short rochaded
+2021-02-23 12:26:55.5068|DEBUG|ChessGUI.Board|WhiteKingX=6,WhiteKingY=7 / king moved after chess
+2021-02-23 12:26:55.5068|DEBUG|ChessGUI.SchachGUI| whiteKingHasMoved wurde auf True gesetzt
+2021-02-23 12:26:55.5068|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 12:26:55.5208|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=6;posY=7
+2021-02-23 12:26:58.7200|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:26:58.7200|WARN|ChessGUI.Board|Errechnete Koordinaten X=2;Y=3 entsprechen nicht der/dem weissen Bauer, sondern der/dem schwarzen Laeufer auf dem Brett
+2021-02-23 12:26:58.7200|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Bauer der Liste bei
+2021-02-23 12:26:58.7200|WARN|ChessGUI.Board|Errechnete Koordinaten X=2;Y=3 entsprechen nicht der/dem weissen Bauer, sondern der/dem schwarzen Laeufer auf dem Brett
+2021-02-23 12:26:58.7200|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Bauer der Liste bei
+2021-02-23 12:26:58.7200|DEBUG|ChessGUI.SchachGUI|Last figure moved:Laeufer
+2021-02-23 12:26:58.7200|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=3
+2021-02-23 12:27:00.7441|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:27:04.5363|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:27:04.5363|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=0 entsprechen nicht der/dem schwarzen Dame, sondern der/dem weissen Dame auf dem Brett
+2021-02-23 12:27:04.5363|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Dame der Liste bei
+2021-02-23 12:27:04.5363|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=0 entsprechen nicht der/dem schwarzen Dame, sondern der/dem weissen Dame auf dem Brett
+2021-02-23 12:27:04.5363|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Dame der Liste bei
+2021-02-23 12:27:06.4094|DEBUG|ChessGUI.SchachGUI|Last figure moved:Dame
+2021-02-23 12:27:06.4094|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=0
+2021-02-23 12:27:09.7126|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:27:10.8557|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:27:10.8557|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=0 entsprechen nicht der/dem weissen Dame, sondern der/dem schwarzen Turm auf dem Brett
+2021-02-23 12:27:10.8557|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Dame der Liste bei
+2021-02-23 12:27:10.8557|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 12:27:10.8557|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=0
+2021-02-23 12:27:22.7363|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:27:23.5414|DEBUG|ChessGUI.SchachGUI|Last figure moved:Laeufer
+2021-02-23 12:27:23.5414|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=6
+2021-02-23 12:27:25.4645|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:27:25.4645|WARN|ChessGUI.Board|Errechnete Koordinaten X=5;Y=5 entsprechen nicht der/dem weissen Springer, sondern der/dem schwarzen Laeufer auf dem Brett
+2021-02-23 12:27:25.4645|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Springer der Liste bei
+2021-02-23 12:27:25.4645|WARN|ChessGUI.Board|Errechnete Koordinaten X=5;Y=5 entsprechen nicht der/dem weissen Springer, sondern der/dem schwarzen Laeufer auf dem Brett
+2021-02-23 12:27:25.4645|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Springer der Liste bei
+2021-02-23 12:27:25.4755|DEBUG|ChessGUI.SchachGUI|Last figure moved:Laeufer
+2021-02-23 12:27:25.4755|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=5
+2021-02-23 12:27:26.4006|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:27:27.3606|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:27:27.3606|WARN|ChessGUI.Board|Errechnete Koordinaten X=5;Y=5 entsprechen nicht der/dem schwarzen Laeufer, sondern der/dem weissen Bauer auf dem Brett
+2021-02-23 12:27:27.3606|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Laeufer der Liste bei
+2021-02-23 12:27:27.3606|WARN|ChessGUI.Board|Errechnete Koordinaten X=5;Y=5 entsprechen nicht der/dem schwarzen Laeufer, sondern der/dem weissen Bauer auf dem Brett
+2021-02-23 12:27:27.3606|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Laeufer der Liste bei
+2021-02-23 12:27:27.3606|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 12:27:27.3606|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=5
+2021-02-23 12:27:28.7197|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:27:30.3438|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:27:30.3438|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 12:27:30.3438|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=6
+2021-02-23 12:27:35.7601|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:27:36.6911|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 12:27:36.6911|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=7
+2021-02-23 12:27:40.1843|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:27:40.1843|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 12:27:40.1843|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=7
+2021-02-23 12:27:40.9684|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:27:42.0155|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:27:42.0255|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 12:27:42.0255|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=7
+2021-02-23 12:27:43.5195|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:27:45.5837|DEBUG|ChessGUI.Board|BlackKingX=4,BlackKingY=1 / king moved after chess
+2021-02-23 12:27:45.5837|DEBUG|ChessGUI.SchachGUI|BlackKingX=4,BlackKingY=1 / black king moved
+2021-02-23 12:27:45.5837|DEBUG|ChessGUI.SchachGUI| blackKingHasMoved wurde auf True gesetzt
+2021-02-23 12:27:45.5837|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 12:27:45.6027|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=4;posY=1
+2021-02-23 12:27:50.3629|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 12:27:50.3629|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=1
+2021-02-23 12:27:52.3680|DEBUG|ChessGUI.Board|BlackKingX=3,BlackKingY=0 / king moved after chess
+2021-02-23 12:27:56.0083|DEBUG|ChessGUI.Board|BlackKingX=3,BlackKingY=2 / king moved after chess
+2021-02-23 12:27:59.0474|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:27:59.0474|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=1 entsprechen nicht der/dem weissen Turm, sondern der/dem schwarzen Koenig auf dem Brett
+2021-02-23 12:27:59.0474|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Turm der Liste bei
+2021-02-23 12:27:59.0474|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=1 entsprechen nicht der/dem weissen Turm, sondern der/dem schwarzen Koenig auf dem Brett
+2021-02-23 12:27:59.0474|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Turm der Liste bei
+2021-02-23 12:27:59.0474|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=1 entsprechen nicht der/dem weissen Turm, sondern der/dem schwarzen Koenig auf dem Brett
+2021-02-23 12:27:59.0474|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Turm der Liste bei
+2021-02-23 12:27:59.0474|DEBUG|ChessGUI.Board|BlackKingX=3,BlackKingY=1 / king moved after chess
+2021-02-23 12:27:59.0474|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=1 entsprechen nicht der/dem weissen Turm, sondern der/dem schwarzen Koenig auf dem Brett
+2021-02-23 12:27:59.0594|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Turm der Liste bei
+2021-02-23 12:27:59.0594|DEBUG|ChessGUI.SchachGUI|BlackKingX=3,BlackKingY=1 / black king moved
+2021-02-23 12:27:59.0594|DEBUG|ChessGUI.SchachGUI| blackKingHasMoved wurde auf True gesetzt
+2021-02-23 12:27:59.0594|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 12:27:59.0594|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=1
+2021-02-23 12:28:01.2396|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:28:01.9646|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 12:28:01.9646|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=4;posY=4
+2021-02-23 12:28:03.7197|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:28:03.7197|WARN|ChessGUI.Board|Errechnete Koordinaten X=4;Y=4 entsprechen nicht der/dem weissen Springer, sondern der/dem schwarzen Springer auf dem Brett
+2021-02-23 12:28:03.7197|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Springer der Liste bei
+2021-02-23 12:28:03.7197|WARN|ChessGUI.Board|Errechnete Koordinaten X=4;Y=4 entsprechen nicht der/dem weissen Springer, sondern der/dem schwarzen Springer auf dem Brett
+2021-02-23 12:28:03.7237|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Springer der Liste bei
+2021-02-23 12:28:03.7237|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 12:28:03.7237|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=4;posY=4
+2021-02-23 12:28:04.3997|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:28:04.9278|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:28:04.9278|WARN|ChessGUI.Board|Errechnete Koordinaten X=4;Y=4 entsprechen nicht der/dem schwarzen Springer, sondern der/dem weissen Bauer auf dem Brett
+2021-02-23 12:28:04.9278|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Springer der Liste bei
+2021-02-23 12:28:04.9278|WARN|ChessGUI.Board|Errechnete Koordinaten X=4;Y=4 entsprechen nicht der/dem schwarzen Springer, sondern der/dem weissen Bauer auf dem Brett
+2021-02-23 12:28:04.9278|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Springer der Liste bei
+2021-02-23 12:28:04.9278|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 12:28:04.9278|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=4;posY=4
+2021-02-23 12:28:07.4159|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:28:08.5250|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 12:28:08.5250|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=0
+2021-02-23 12:28:15.2004|DEBUG|ChessGUI.Board|WhiteKingX=6,WhiteKingY=6 / king moved after chess
+2021-02-23 12:28:15.2004|DEBUG|ChessGUI.SchachGUI|WhiteKingX=6,WhiteKingY=6 / white king moved
+2021-02-23 12:28:15.2074|DEBUG|ChessGUI.SchachGUI| whiteKingHasMoved wurde auf True gesetzt
+2021-02-23 12:28:15.2074|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 12:28:15.2074|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=6;posY=6
+2021-02-23 12:28:17.4955|DEBUG|ChessGUI.Board|BlackKingX=4,BlackKingY=1 / king moved after chess
+2021-02-23 12:28:17.4955|DEBUG|ChessGUI.SchachGUI|BlackKingX=4,BlackKingY=1 / black king moved
+2021-02-23 12:28:17.5035|DEBUG|ChessGUI.SchachGUI| blackKingHasMoved wurde auf True gesetzt
+2021-02-23 12:28:17.5035|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 12:28:17.5035|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=4;posY=1
+2021-02-23 12:28:19.9436|DEBUG|ChessGUI.Board|WhiteKingX=5,WhiteKingY=5 / king moved after chess
+2021-02-23 12:28:19.9436|DEBUG|ChessGUI.SchachGUI|WhiteKingX=5,WhiteKingY=5 / white king moved
+2021-02-23 12:28:19.9486|DEBUG|ChessGUI.SchachGUI| whiteKingHasMoved wurde auf True gesetzt
+2021-02-23 12:28:19.9486|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 12:28:19.9486|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=5
+2021-02-23 12:28:22.5168|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 12:28:22.5168|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=6
+2021-02-23 12:28:27.8611|DEBUG|ChessGUI.SchachGUI|Last figure moved:Laeufer
+2021-02-23 12:28:27.8611|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=1;posY=3
+2021-02-23 12:28:32.1313|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 12:28:32.1313|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=4
+2021-02-23 12:28:34.0074|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:28:34.0074|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=4 entsprechen nicht der/dem schwarzen Springer, sondern der/dem weissen Bauer auf dem Brett
+2021-02-23 12:28:34.0074|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Springer der Liste bei
+2021-02-23 12:28:34.0074|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=4 entsprechen nicht der/dem schwarzen Springer, sondern der/dem weissen Bauer auf dem Brett
+2021-02-23 12:28:34.0074|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Springer der Liste bei
+2021-02-23 12:28:34.0074|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=4 entsprechen nicht der/dem schwarzen Springer, sondern der/dem weissen Bauer auf dem Brett
+2021-02-23 12:28:34.0074|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Springer der Liste bei
+2021-02-23 12:28:34.0074|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 12:28:34.0074|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=4
+2021-02-23 12:28:35.7995|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:28:36.4236|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:28:36.4236|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=4 entsprechen nicht der/dem weissen Bauer, sondern der/dem schwarzen Laeufer auf dem Brett
+2021-02-23 12:28:36.4236|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Bauer der Liste bei
+2021-02-23 12:28:36.4236|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=4 entsprechen nicht der/dem weissen Bauer, sondern der/dem schwarzen Laeufer auf dem Brett
+2021-02-23 12:28:36.4236|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Bauer der Liste bei
+2021-02-23 12:28:36.4236|DEBUG|ChessGUI.SchachGUI|Last figure moved:Laeufer
+2021-02-23 12:28:36.4366|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=4
+2021-02-23 12:28:38.7837|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:28:43.4480|DEBUG|ChessGUI.Board|WhiteKingX=4,WhiteKingY=5 / king moved after chess
+2021-02-23 12:28:46.3271|DEBUG|ChessGUI.Board|WhiteKingX=5,WhiteKingY=4 / king moved after chess
+2021-02-23 12:28:46.3271|DEBUG|ChessGUI.SchachGUI|WhiteKingX=5,WhiteKingY=4 / white king moved
+2021-02-23 12:28:46.3271|DEBUG|ChessGUI.SchachGUI| whiteKingHasMoved wurde auf True gesetzt
+2021-02-23 12:28:46.3271|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 12:28:46.3271|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=4
+2021-02-23 12:28:48.2202|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 12:28:48.2202|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=7;posY=2
+2021-02-23 12:28:50.5244|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 12:28:50.5244|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=7;posY=4
+2021-02-23 12:28:53.0975|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 12:28:53.0975|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=6;posY=3
+2021-02-23 12:28:55.3996|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:28:55.3996|WARN|ChessGUI.Board|Errechnete Koordinaten X=6;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Bauer auf dem Brett
+2021-02-23 12:28:55.3996|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 12:28:55.3996|WARN|ChessGUI.Board|Errechnete Koordinaten X=6;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Bauer auf dem Brett
+2021-02-23 12:28:55.3996|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 12:28:55.4066|WARN|ChessGUI.Board|Errechnete Koordinaten X=6;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Bauer auf dem Brett
+2021-02-23 12:28:55.4066|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 12:28:55.4066|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 12:28:55.4066|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=6;posY=3
+2021-02-23 12:28:56.1277|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:28:56.6477|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:28:56.6477|WARN|ChessGUI.Board|Errechnete Koordinaten X=6;Y=3 entsprechen nicht der/dem weissen Bauer, sondern der/dem schwarzen Bauer auf dem Brett
+2021-02-23 12:28:56.6477|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Bauer der Liste bei
+2021-02-23 12:28:56.6477|WARN|ChessGUI.Board|Errechnete Koordinaten X=6;Y=3 entsprechen nicht der/dem weissen Bauer, sondern der/dem schwarzen Bauer auf dem Brett
+2021-02-23 12:28:56.6477|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Bauer der Liste bei
+2021-02-23 12:28:57.7638|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 12:28:57.7638|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=6;posY=3
+2021-02-23 12:28:58.8398|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:28:59.3839|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:28:59.3849|WARN|ChessGUI.Board|Errechnete Koordinaten X=6;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Koenig auf dem Brett
+2021-02-23 12:28:59.3849|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 12:28:59.3849|WARN|ChessGUI.Board|Errechnete Koordinaten X=6;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Koenig auf dem Brett
+2021-02-23 12:28:59.3849|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 12:28:59.3849|WARN|ChessGUI.Board|Errechnete Koordinaten X=6;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Koenig auf dem Brett
+2021-02-23 12:28:59.3849|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 12:28:59.3849|DEBUG|ChessGUI.Board|WhiteKingX=6,WhiteKingY=3 / king moved after chess
+2021-02-23 12:28:59.3849|WARN|ChessGUI.Board|Errechnete Koordinaten X=6;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Koenig auf dem Brett
+2021-02-23 12:28:59.3849|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 12:28:59.3849|DEBUG|ChessGUI.SchachGUI|WhiteKingX=6,WhiteKingY=3 / white king moved
+2021-02-23 12:28:59.4029|DEBUG|ChessGUI.SchachGUI| whiteKingHasMoved wurde auf True gesetzt
+2021-02-23 12:28:59.4029|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 12:28:59.4029|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=6;posY=3
+2021-02-23 12:29:00.5599|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:29:01.4790|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 12:29:01.4790|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 12:29:01.4790|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=6
+2021-02-23 12:29:03.3991|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 12:29:04.1351|DEBUG|ChessGUI.Board|WhiteKingX=5,WhiteKingY=4 / king moved after chess
+2021-02-23 12:29:06.5753|DEBUG|ChessGUI.Board|WhiteKingX=5,WhiteKingY=3 / king moved after chess
+2021-02-23 12:29:08.7354|DEBUG|ChessGUI.Board|WhiteKingX=6,WhiteKingY=4 / king moved after chess
+2021-02-23 12:29:11.4556|DEBUG|ChessGUI.Board|WhiteKingX=6,WhiteKingY=4 / king moved after chess
+2021-02-23 12:29:11.4556|DEBUG|ChessGUI.SchachGUI|WhiteKingX=6,WhiteKingY=4 / white king moved
+2021-02-23 12:29:11.4596|DEBUG|ChessGUI.SchachGUI| whiteKingHasMoved wurde auf True gesetzt
+2021-02-23 12:29:11.4596|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 12:29:11.4596|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=6;posY=4
+2021-02-23 12:29:14.4857|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 12:29:14.4857|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=6;posY=6
+2021-02-23 12:29:16.5109|DEBUG|ChessGUI.Board|WhiteKingX=7,WhiteKingY=3 / king moved after chess
+2021-02-23 12:29:16.5109|DEBUG|ChessGUI.SchachGUI|WhiteKingX=7,WhiteKingY=3 / white king moved
+2021-02-23 12:29:16.5179|DEBUG|ChessGUI.SchachGUI| whiteKingHasMoved wurde auf True gesetzt
+2021-02-23 12:29:16.5179|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 12:29:16.5179|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=7;posY=3
+2021-02-23 12:29:18.8070|DEBUG|ChessGUI.Board|BlackKingX=5,BlackKingY=2 / king moved after chess
+2021-02-23 12:29:18.8070|DEBUG|ChessGUI.SchachGUI|BlackKingX=5,BlackKingY=2 / black king moved
+2021-02-23 12:29:18.8070|DEBUG|ChessGUI.SchachGUI| blackKingHasMoved wurde auf True gesetzt
+2021-02-23 12:29:18.8070|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 12:29:18.8070|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=2
+2021-02-23 12:29:22.7672|DEBUG|ChessGUI.Board|WhiteKingX=7,WhiteKingY=2 / king moved after chess
+2021-02-23 12:29:22.7692|DEBUG|ChessGUI.SchachGUI|WhiteKingX=7,WhiteKingY=2 / white king moved
+2021-02-23 12:29:22.7692|DEBUG|ChessGUI.SchachGUI| whiteKingHasMoved wurde auf True gesetzt
+2021-02-23 12:29:22.7692|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 12:29:22.7692|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=7;posY=2
+2021-02-23 12:29:45.8045|ERROR|ChessGUI.SchachGUI|Der Remotename konnte nicht aufgelöst werden: 'tklustig.ddns.net'
+System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'tklustig.ddns.net'
+   bei System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   bei System.Net.HttpWebRequest.GetRequestStream()
+   bei ChessGUI.SchachGUI.SchachGUI_FormClosing(Object sender, FormClosingEventArgs e) in F:\Visual Studio 2017\C#\C#_GUI\ChessGUI\ChessGUI\Main.cs:Zeile 1111.
+   bei System.Windows.Forms.Form.OnFormClosing(FormClosingEventArgs e)
+   bei System.Windows.Forms.Form.RaiseFormClosingOnAppExit()
+   bei System.Windows.Forms.Application.ExitInternal()
+   bei System.Windows.Forms.Application.Exit(CancelEventArgs e)
+   bei System.Windows.Forms.Application.Exit()
+   bei ChessGUI.SchachGUI.BeendenToolStripMenuItem_Click(Object sender, EventArgs e) in F:\Visual Studio 2017\C#\C#_GUI\ChessGUI\ChessGUI\Main.cs:Zeile 95.
+2021-02-23 16:40:36.7439|DEBUG|ChessGUI.SchachGUI|WhiteKingX=4;WhiteKingY=7 / load formular
+2021-02-23 16:40:36.7907|DEBUG|ChessGUI.SchachGUI|BlackKingX=4;BlackKingY=0 / load formular
+2021-02-23 16:40:40.7569|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 16:40:40.7569|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=4
+2021-02-23 16:40:42.3637|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 16:40:42.3637|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=3
+2021-02-23 16:40:44.3761|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 16:40:44.3761|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=4
+2021-02-23 16:40:45.8269|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 16:40:45.8269|WARN|ChessGUI.Board|Errechnete Koordinaten X=2;Y=4 entsprechen nicht der/dem weissen Bauer, sondern der/dem schwarzen Bauer auf dem Brett
+2021-02-23 16:40:45.8269|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Bauer der Liste bei
+2021-02-23 16:40:45.8269|WARN|ChessGUI.Board|Errechnete Koordinaten X=2;Y=4 entsprechen nicht der/dem weissen Bauer, sondern der/dem schwarzen Bauer auf dem Brett
+2021-02-23 16:40:45.8425|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Bauer der Liste bei
+2021-02-23 16:40:45.8425|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 16:40:45.8425|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=4
+2021-02-23 16:40:46.9189|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 16:40:47.5741|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 16:40:47.5741|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=4;posY=4
+2021-02-23 16:40:49.9141|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 16:40:49.9297|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=2
+2021-02-23 16:40:51.9577|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 16:40:51.9577|WARN|ChessGUI.Board|Errechnete Koordinaten X=2;Y=4 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Laeufer auf dem Brett
+2021-02-23 16:40:51.9577|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 16:40:51.9577|WARN|ChessGUI.Board|Errechnete Koordinaten X=2;Y=4 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Laeufer auf dem Brett
+2021-02-23 16:40:51.9733|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 16:40:51.9733|DEBUG|ChessGUI.SchachGUI|Last figure moved:Laeufer
+2021-02-23 16:40:51.9889|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=4
+2021-02-23 16:40:52.8469|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 16:40:53.5021|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 16:40:53.5021|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=4 entsprechen nicht der/dem weissen Bauer, sondern der/dem schwarzen Dame auf dem Brett
+2021-02-23 16:40:53.5021|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Bauer der Liste bei
+2021-02-23 16:40:53.5021|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=4 entsprechen nicht der/dem weissen Bauer, sondern der/dem schwarzen Dame auf dem Brett
+2021-02-23 16:40:53.5021|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Bauer der Liste bei
+2021-02-23 16:40:53.5021|DEBUG|ChessGUI.SchachGUI|Last figure moved:Dame
+2021-02-23 16:40:53.5021|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=4
+2021-02-23 16:40:54.9373|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 16:40:55.6237|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 16:40:55.6393|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=4 entsprechen nicht der/dem schwarzen Dame, sondern der/dem weissen Dame auf dem Brett
+2021-02-23 16:40:55.6393|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Dame der Liste bei
+2021-02-23 16:40:55.6393|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=4 entsprechen nicht der/dem schwarzen Dame, sondern der/dem weissen Dame auf dem Brett
+2021-02-23 16:40:55.6393|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Dame der Liste bei
+2021-02-23 16:40:55.6393|DEBUG|ChessGUI.SchachGUI|Last figure moved:Dame
+2021-02-23 16:40:55.6393|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=4
+2021-02-23 16:40:56.6377|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 16:40:57.2150|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 16:40:57.2150|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=4 entsprechen nicht der/dem weissen Dame, sondern der/dem schwarzen Springer auf dem Brett
+2021-02-23 16:40:57.2150|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Dame der Liste bei
+2021-02-23 16:40:57.2150|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=4 entsprechen nicht der/dem weissen Dame, sondern der/dem schwarzen Springer auf dem Brett
+2021-02-23 16:40:57.2306|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Dame der Liste bei
+2021-02-23 16:40:57.2306|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 16:40:57.2306|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=4
+2021-02-23 16:41:01.5674|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 16:41:02.3318|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 16:41:02.3318|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=5
+2021-02-23 16:41:08.6810|DEBUG|ChessGUI.Board|BlackKingX=3,BlackKingY=1 / king moved after chess
+2021-02-23 16:41:08.6810|DEBUG|ChessGUI.SchachGUI|BlackKingX=3,BlackKingY=1 / black king moved
+2021-02-23 16:41:08.6810|DEBUG|ChessGUI.SchachGUI| blackKingHasMoved wurde auf True gesetzt
+2021-02-23 16:41:08.6810|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 16:41:08.6966|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=1
+2021-02-23 16:41:10.6154|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 16:41:10.6154|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=4
+2021-02-23 16:41:12.7838|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 16:41:12.7994|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=1;posY=2
+2021-02-23 16:41:14.6558|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 16:41:14.6558|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=4;posY=3
+2021-02-23 16:41:22.9154|DEBUG|ChessGUI.SchachGUI|Last figure moved:Laeufer
+2021-02-23 16:41:22.9154|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=1;posY=1
+2021-02-23 16:41:24.8342|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 16:41:24.8342|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=5
+2021-02-23 16:41:26.6750|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 16:41:26.6750|WARN|ChessGUI.Board|Errechnete Koordinaten X=5;Y=5 entsprechen nicht der/dem weissen Springer, sondern der/dem schwarzen Laeufer auf dem Brett
+2021-02-23 16:41:26.6750|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Springer der Liste bei
+2021-02-23 16:41:26.6750|WARN|ChessGUI.Board|Errechnete Koordinaten X=5;Y=5 entsprechen nicht der/dem weissen Springer, sondern der/dem schwarzen Laeufer auf dem Brett
+2021-02-23 16:41:26.6750|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Springer der Liste bei
+2021-02-23 16:41:26.6906|DEBUG|ChessGUI.SchachGUI|Last figure moved:Laeufer
+2021-02-23 16:41:26.6906|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=5
+2021-02-23 16:41:27.6266|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 16:41:28.9994|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 16:41:28.9994|WARN|ChessGUI.Board|Errechnete Koordinaten X=5;Y=5 entsprechen nicht der/dem schwarzen Laeufer, sondern der/dem weissen Bauer auf dem Brett
+2021-02-23 16:41:28.9994|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Laeufer der Liste bei
+2021-02-23 16:41:28.9994|WARN|ChessGUI.Board|Errechnete Koordinaten X=5;Y=5 entsprechen nicht der/dem schwarzen Laeufer, sondern der/dem weissen Bauer auf dem Brett
+2021-02-23 16:41:28.9994|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Laeufer der Liste bei
+2021-02-23 16:41:29.0150|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 16:41:29.0150|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=5
+2021-02-23 16:41:31.5734|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 16:41:32.0102|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 16:41:32.0102|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=6;posY=2
+2021-02-23 16:41:33.6170|DEBUG|ChessGUI.SchachGUI|WhiteKingX=6,WhiteKingY=7 / short rochaded
+2021-02-23 16:41:33.6326|DEBUG|ChessGUI.Board|WhiteKingX=6,WhiteKingY=7 / king moved after chess
+2021-02-23 16:41:33.6326|DEBUG|ChessGUI.SchachGUI| whiteKingHasMoved wurde auf True gesetzt
+2021-02-23 16:41:33.6326|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 16:41:33.6326|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=6;posY=7
+2021-02-23 16:41:36.0038|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 16:41:36.0038|WARN|ChessGUI.Board|Errechnete Koordinaten X=5;Y=5 entsprechen nicht der/dem weissen Bauer, sondern der/dem schwarzen Springer auf dem Brett
+2021-02-23 16:41:36.0038|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Bauer der Liste bei
+2021-02-23 16:41:36.0038|WARN|ChessGUI.Board|Errechnete Koordinaten X=5;Y=5 entsprechen nicht der/dem weissen Bauer, sondern der/dem schwarzen Springer auf dem Brett
+2021-02-23 16:41:36.0038|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Bauer der Liste bei
+2021-02-23 16:41:38.0878|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 16:41:38.0878|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=5
+2021-02-23 16:41:39.3046|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 16:41:39.8506|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 16:41:39.8506|WARN|ChessGUI.Board|Errechnete Koordinaten X=5;Y=5 entsprechen nicht der/dem schwarzen Springer, sondern der/dem weissen Turm auf dem Brett
+2021-02-23 16:41:39.8506|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Springer der Liste bei
+2021-02-23 16:41:39.8506|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 16:41:39.8662|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=5;posY=5
+2021-02-23 16:41:42.4714|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 16:41:43.2202|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 16:41:43.2202|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=3
+2021-02-23 16:41:47.2074|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 16:41:47.2074|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=5
+2021-02-23 16:41:49.4538|DEBUG|ChessGUI.Board|BlackKingX=2,BlackKingY=1 / king moved after chess
+2021-02-23 16:41:49.4538|DEBUG|ChessGUI.SchachGUI|BlackKingX=2,BlackKingY=1 / black king moved
+2021-02-23 16:41:49.4538|DEBUG|ChessGUI.SchachGUI| blackKingHasMoved wurde auf True gesetzt
+2021-02-23 16:41:49.4538|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 16:41:49.4538|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=1
+2021-02-23 16:41:51.3102|DEBUG|ChessGUI.SchachGUI|Last figure moved:Laeufer
+2021-02-23 16:41:51.3102|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=4;posY=5
+2021-02-23 16:41:53.2758|DEBUG|ChessGUI.SchachGUI|Last figure moved:Laeufer
+2021-02-23 16:41:53.2758|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=6;posY=1
+2021-02-23 16:41:55.5067|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 16:41:55.5067|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=7
+2021-02-23 16:41:59.3443|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 16:41:59.3443|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=0
+2021-02-23 16:42:03.1499|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 16:42:03.1499|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=1
+2021-02-23 16:42:10.5691|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 16:42:10.5691|WARN|ChessGUI.Board|Errechnete Koordinaten X=3;Y=1 entsprechen nicht der/dem weissen Turm, sondern der/dem schwarzen Turm auf dem Brett
+2021-02-23 16:42:10.5691|INFO|ChessGUI.Board|Fuege NULL anstatt weissen Turm der Liste bei
+2021-02-23 16:42:10.5691|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 16:42:10.5691|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=1
+2021-02-23 16:42:13.9231|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 16:42:17.1303|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 16:42:17.1459|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=1;posY=3
+2021-02-23 16:42:19.5483|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 16:42:22.5515|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 16:42:23.2691|DEBUG|ChessGUI.Board|BlackKingX=1,BlackKingY=1 / king moved after chess
+2021-02-23 16:42:27.8147|DEBUG|ChessGUI.Board|BlackKingX=1,BlackKingY=1 / king moved after chess
+2021-02-23 16:42:27.8147|DEBUG|ChessGUI.SchachGUI|BlackKingX=1,BlackKingY=1 / black king moved
+2021-02-23 16:42:27.8303|DEBUG|ChessGUI.SchachGUI| blackKingHasMoved wurde auf True gesetzt
+2021-02-23 16:42:27.8303|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 16:42:27.8303|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=1;posY=1
+2021-02-23 16:42:31.0283|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 16:42:32.4315|DEBUG|ChessGUI.SchachGUI|Last figure moved:Turm
+2021-02-23 16:42:32.4315|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=3;posY=1
+2021-02-23 16:42:33.8823|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 16:42:34.8339|DEBUG|ChessGUI.Board|BlackKingX=0,BlackKingY=2 / king moved after chess
+2021-02-23 16:42:34.8339|DEBUG|ChessGUI.SchachGUI|BlackKingX=0,BlackKingY=2 / black king moved
+2021-02-23 16:42:34.8495|DEBUG|ChessGUI.SchachGUI| blackKingHasMoved wurde auf True gesetzt
+2021-02-23 16:42:34.8495|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 16:42:34.8495|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=0;posY=2
+2021-02-23 16:42:38.5091|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 16:42:38.5247|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=2;posY=1
+2021-02-23 16:42:46.8163|DEBUG|ChessGUI.Board|BlackKingX=1,BlackKingY=3 / king moved after chess
+2021-02-23 16:42:50.3199|DEBUG|ChessGUI.Board|BlackKingX=0,BlackKingY=3 / king moved after chess
+2021-02-23 16:42:54.1668|DEBUG|ChessGUI.Board|BlackKingX=0,BlackKingY=3 / king moved after chess
+2021-02-23 16:42:54.1824|DEBUG|ChessGUI.SchachGUI|BlackKingX=0,BlackKingY=3 / black king moved
+2021-02-23 16:42:54.1824|DEBUG|ChessGUI.SchachGUI| blackKingHasMoved wurde auf True gesetzt
+2021-02-23 16:42:54.1824|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 16:42:54.1824|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=0;posY=3
+2021-02-23 16:42:56.3352|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 16:42:56.3352|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=0;posY=5
+2021-02-23 16:42:59.5956|DEBUG|ChessGUI.SchachGUI|Last figure moved:Bauer
+2021-02-23 16:42:59.6112|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=1;posY=3
+2021-02-23 16:43:01.7640|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 16:43:01.7640|WARN|ChessGUI.Board|Errechnete Koordinaten X=1;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Springer auf dem Brett
+2021-02-23 16:43:01.7640|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 16:43:01.7640|WARN|ChessGUI.Board|Errechnete Koordinaten X=1;Y=3 entsprechen nicht der/dem schwarzen Bauer, sondern der/dem weissen Springer auf dem Brett
+2021-02-23 16:43:01.7640|INFO|ChessGUI.Board|Fuege NULL anstatt schwarzen Bauer der Liste bei
+2021-02-23 16:43:01.7640|DEBUG|ChessGUI.SchachGUI|Last figure moved:Springer
+2021-02-23 16:43:01.7640|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=1;posY=3
+2021-02-23 16:43:05.3364|DEBUG|ChessGUI.SchachGUI|figureHasBeenBeaten wurde auf False gesetzt
+2021-02-23 16:43:05.9292|DEBUG|ChessGUI.Board|BlackKingX=0,BlackKingY=4 / king moved after chess
+2021-02-23 16:43:05.9292|DEBUG|ChessGUI.SchachGUI|BlackKingX=0,BlackKingY=4 / black king moved
+2021-02-23 16:43:05.9448|DEBUG|ChessGUI.SchachGUI| blackKingHasMoved wurde auf True gesetzt
+2021-02-23 16:43:05.9448|DEBUG|ChessGUI.SchachGUI|Last figure moved:Koenig
+2021-02-23 16:43:05.9448|DEBUG|ChessGUI.SchachGUI|Last figure moved: posX=0;posY=4
+2021-02-23 16:43:08.7528|DEBUG|ChessGUI.Board|figureHasBeenBeaten wurde auf True gesetzt
+2021-02-23 16:43:24.6552|ERROR|ChessGUI.SchachGUI|Während einer Pinganforderung ist eine Ausnahme aufgetreten.
+System.Net.NetworkInformation.PingException: Während einer Pinganforderung ist eine Ausnahme aufgetreten. ---> System.Net.Sockets.SocketException: Der angegebene Host ist unbekannt
+   bei System.Net.Dns.GetAddrInfo(String name)
+   bei System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   bei System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- Ende der internen Ausnahmestapelüberwachung ---
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   bei ChessGUI.SchachGUI.IsConnectionAvailable(String url, Int32 timeout) in F:\Visual Studio 2017\C#\C#_GUI\ChessGUI\ChessGUI\Main.cs:Zeile 1377.
+2021-02-23 16:43:24.6552|WARN|ChessGUI.SchachGUI|Die Url:{0} konnte nicht angepingt werden. Versuche es mit dem doppelten TimeOut erneut
+2021-02-23 16:43:24.7176|ERROR|ChessGUI.SchachGUI|Während einer Pinganforderung ist eine Ausnahme aufgetreten.
+System.Net.NetworkInformation.PingException: Während einer Pinganforderung ist eine Ausnahme aufgetreten. ---> System.Net.Sockets.SocketException: Der angegebene Host ist unbekannt
+   bei System.Net.Dns.GetAddrInfo(String name)
+   bei System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   bei System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- Ende der internen Ausnahmestapelüberwachung ---
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   bei ChessGUI.SchachGUI.IsConnectionAvailable(String url, Int32 timeout) in F:\Visual Studio 2017\C#\C#_GUI\ChessGUI\ChessGUI\Main.cs:Zeile 1373.
+2021-02-23 16:43:24.7176|WARN|ChessGUI.SchachGUI|Die Url:{0} konnte nicht angepingt werden. Versuche es mit dem doppelten TimeOut erneut
+2021-02-23 16:43:24.7176|DEBUG|ChessGUI.SchachGUI|Da der Boolean auf False gesetzt wurde, wird kein erneuter Pingversuch gestartet. Der Kontakt ist gescheitert
+2021-02-23 16:43:39.5162|ERROR|ChessGUI.SchachGUI|Während einer Pinganforderung ist eine Ausnahme aufgetreten.
+System.Net.NetworkInformation.PingException: Während einer Pinganforderung ist eine Ausnahme aufgetreten. ---> System.Net.Sockets.SocketException: Der angegebene Host ist unbekannt
+   bei System.Net.Dns.GetAddrInfo(String name)
+   bei System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   bei System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- Ende der internen Ausnahmestapelüberwachung ---
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   bei ChessGUI.SchachGUI.IsConnectionAvailable(String url, Int32 timeout) in F:\Visual Studio 2017\C#\C#_GUI\ChessGUI\ChessGUI\Main.cs:Zeile 1377.
+2021-02-23 16:43:39.5162|WARN|ChessGUI.SchachGUI|Die Url:{0} konnte nicht angepingt werden. Versuche es mit dem doppelten TimeOut erneut
+2021-02-23 16:43:39.5630|ERROR|ChessGUI.SchachGUI|Während einer Pinganforderung ist eine Ausnahme aufgetreten.
+System.Net.NetworkInformation.PingException: Während einer Pinganforderung ist eine Ausnahme aufgetreten. ---> System.Net.Sockets.SocketException: Der angegebene Host ist unbekannt
+   bei System.Net.Dns.GetAddrInfo(String name)
+   bei System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   bei System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   --- Ende der internen Ausnahmestapelüberwachung ---
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)
+   bei System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout)
+   bei ChessGUI.SchachGUI.IsConnectionAvailable(String url, Int32 timeout) in F:\Visual Studio 2017\C#\C#_GUI\ChessGUI\ChessGUI\Main.cs:Zeile 1373.
+2021-02-23 16:43:39.5630|WARN|ChessGUI.SchachGUI|Die Url:{0} konnte nicht angepingt werden. Versuche es mit dem doppelten TimeOut erneut
+2021-02-23 16:43:39.5630|DEBUG|ChessGUI.SchachGUI|Da der Boolean auf False gesetzt wurde, wird kein erneuter Pingversuch gestartet. Der Kontakt ist gescheitert
+2021-02-23 16:47:34.9526|DEBUG|ChessGUI.SchachGUI|WhiteKingX=4;WhiteKingY=7 / load formular
+2021-02-23 16:47:34.9926|DEBUG|ChessGUI.SchachGUI|BlackKingX=4;BlackKingY=0 / load formular
