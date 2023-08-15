@@ -48,7 +48,7 @@ namespace ChessGUI {
                         Servername = "mail.gmx.net",
                         Port = 587,
                         Username = "kipp.thomas@gmx.net",
-                        Passwort = "1918Rott$",
+                        Passwort = "strengGeheim",
                         Anhaenge = new List<Attachment> { new Attachment(log) },
                         Ssl = true,
                     };
